@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<section class="paper">
+    <article>
+      <h1>Hello, Paper.css with SvelteKit!</h1>
+      <p>This is a page styled with Paper.css.</p>
+    </article>
+    <button class="btn-large">Large</button>
+    <button class="disabled">Disabled</button>
+  </section>

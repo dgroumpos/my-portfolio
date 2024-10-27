@@ -7,4 +7,6 @@
 /* Set Space Grotesk as the default font */
 html, body {
   font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  background-color: white;
 }

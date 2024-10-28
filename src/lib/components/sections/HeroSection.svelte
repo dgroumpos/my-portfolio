@@ -7,22 +7,39 @@
 	}
 </script>
 
-<section class="hero">
-	<div class="container has-text-left hero-body">
-		<h3 class="subtitle is-size-5 has-text-left pb-4 has-text-black has-text-weight-semibold">
-			<span>Hello</span>! I'm Dimitris
-		</h3>
-			<h1 class="title mb-0 is-1 has-text-black has-text-weight-bold">I am a QA engineer,</h1>
-			<h1 class="title mb-0  is-1 has-text-black has-text-weight-bold">software, game developer</h1>
-			<h1 class="title mb-0  is-1 has-text-black has-text-weight-bold">and coding</h1>
-			<h1 class="title is-1 has-text-weight-bold has-text-grey">is my passion!</h1>
-		<Button className={"is-medium"} {onclick}>Let's talk</Button>
+<section class="hero is-bold">
+	<div class="hero-body">
+		<div class="container">
+			<p class="intro-text">Hello! I'm Dimitris</p>
+			<h1 class="headline">
+				<span>I'm a</span> QA <span>engineer</span><br />
+				game <span>developer</span><br />
+				software <span>engineer</span><br />
+				<span>and</span> coding <span>is my passion.</span>
+			</h1>
+			<div class="mt-5">
+				<Button className={'is-black is-medium'} {onclick}>Let's talk</Button>
+			</div>
+		</div>
 	</div>
 </section>
 
 <style>
-	span {
-		text-decoration: underline;
-		text-decoration-line: 50%;
+	.hero-body {
+		text-align: left;
+	}
+	.intro-text {
+		font-size: 1rem;
+		font-weight: 400;
+		color: #4a4a4a; /* Light gray for intro text */
+	}
+	.headline {
+		font-size: 3rem;
+		font-weight: 900;
+		color: #222;
+		line-height: 1.2;
+	}
+	.headline span {
+		font-weight: 400; /* Make specific parts of text lighter */
 	}
 </style>
